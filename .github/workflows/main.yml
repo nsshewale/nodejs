@@ -1,9 +1,8 @@
-  name: Push to s3 and  Deployment
-
+name: Push to s3 and  Deployment
 on:
   push:
     branches:
-    - main
+       - main
 
 jobs:
   build-and-deploy:

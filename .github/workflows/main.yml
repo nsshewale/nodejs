@@ -1,4 +1,4 @@
-name: Portfolio Deployment
+name: Push to s3 and  Deployment
 
 on:
   push:

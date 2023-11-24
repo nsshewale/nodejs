@@ -13,7 +13,8 @@ jobs:
           uses: actions/setup-node@v3
           with:
                node-version: '20.x'
-        - run: |
+        - run: | 
+                 cd mynodeapp
                  npm config set registry http://registry.npmjs.org
                  npm install
                  npm run build

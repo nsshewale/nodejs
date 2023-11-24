@@ -22,7 +22,7 @@ jobs:
        
        
         - run: | 
-                  sudo apt-get update -y
+                  sudo apt update -y
                   cd mynodeapp
                   npm config set registry http://registry.npmjs.org
                   sudo apt-get install npm -y
